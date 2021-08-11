@@ -11,4 +11,4 @@ function threexplusone($x)
 	}
 }
 
-print_r(array_map('threexplusone', range(1, 1000)));
+print_r(array_map('threexplusone', range(1, 10000)));

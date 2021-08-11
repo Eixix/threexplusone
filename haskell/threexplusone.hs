@@ -6,4 +6,4 @@ threexplusone x
 
 main :: IO ()
 main = do
-  print (map threexplusone [1..1000])
+  print (map threexplusone [1..10000])
